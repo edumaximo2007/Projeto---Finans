@@ -1,0 +1,32 @@
+:root{
+    --amarelo:#ffc107;
+    --branco: #FFFFFF;
+    --botao: #007bff;
+    --indigo: #6610f2;
+    --roxo: #6f42c1;
+    --rosa: #e83e8c;
+    --vermelho: #dc3545;
+    --laranja: #fd7e14;
+    --amarelo: #ffc107;
+    --verde: #28a745;
+    --cerceta: #20c997;
+    --ciano: #17a2b8;
+    --cinzento: #6c757d;
+    --cinza-escuro: #343a40;
+    --primaria: #007bff;
+    --secundaria: #6c757d;
+    --sucesso: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --font-hind: 'Hind Madurai', sans-serif;
+
+}
+
+body{
+    /* font-family: var(--font-hind); */
+    margin: 0;
+    padding: 0;
+}

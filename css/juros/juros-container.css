@@ -1,0 +1,8 @@
+.juros__container{
+    align-items: center;
+    /* background-color: var(--branco); */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 60px;
+}

@@ -1,0 +1,9 @@
+.nav__link{
+    text-decoration: none;
+    color: var(--cinzento);
+}
+
+.nav__link:hover{
+    color: var(--cinza-escuro);
+    text-decoration: none;
+}

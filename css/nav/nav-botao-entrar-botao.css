@@ -1,0 +1,17 @@
+.nav__botao-entrar___botao{
+    box-sizing: border-box;
+    border-style: none;
+    border: 1px solid var(--branco);
+    background-color: var(--amarelo);
+    color: var(--branco);
+    border-radius: 3px;
+    padding: 5px 12px;
+}
+
+.nav__botao-entrar___botao:hover{
+    box-sizing: border-box;
+    background-color: var(--branco);
+    color: var(--dark);
+    border-style: none;
+    padding: 6px 13px;
+}

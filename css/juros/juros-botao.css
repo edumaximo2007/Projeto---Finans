@@ -1,0 +1,11 @@
+.juros__botao{
+    background: var(--botao);
+    border-style: none;
+    border-radius: 5px;
+    color: var(--branco);
+    padding: 8px 12px;
+}
+
+.juros__botao:hover{
+    background: var(--roxo);
+}

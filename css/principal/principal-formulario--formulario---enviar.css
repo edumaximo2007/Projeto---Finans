@@ -1,0 +1,14 @@
+.principal__formulario-formulario___enviar{
+    background: var(--botao);
+    border-radius: 0 5px 5px 0;
+    border-style: none;
+    color: var(--branco);
+    font-size: 1.3rem;
+    padding: 0 5px 0 5px;
+    width: 9rem;
+
+}
+
+.principal__formulario-formulario___enviar:hover{
+    background: var(--roxo);
+}
