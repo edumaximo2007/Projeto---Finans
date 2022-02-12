@@ -1,0 +1,8 @@
+.rodape__navegacao{
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

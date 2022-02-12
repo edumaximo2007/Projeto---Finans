@@ -1,0 +1,6 @@
+.beneficio{
+    background: var(--branco);
+    border-bottom: 1px solid var(--cinzento);
+    padding-bottom: 50px;
+    padding-top: 60px;
+}
