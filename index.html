@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="./css/logo/logo.css">
   <link rel="stylesheet" href="./css/logo/logo-link-imagem.css">
   <link rel="stylesheet" href="./css/navegacao.css">
+  <link rel="stylesheet" href="./css/botao-navegacao.css">
   <link rel="stylesheet" href="./css/nav/nav.css">
   <link rel="stylesheet" href="./css/nav/nav-item.css">
   <link rel="stylesheet" href="./css/nav/nav-link.css">
@@ -80,6 +81,9 @@
           <a  class="logo__link "href=""><img class="logo__link-imagem" src="./img/logo.png" alt="logo do site"></a>
         </div>
         <nav class="navegacao">
+          <button aria-label="Abrir Menu" class="botao__navegacao" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+            <span id="hamburger"></span>
+          </button>
           <ul class="nav">
             <li class="nav__item">
               <a href="" class="nav__link">Home</a>
@@ -96,7 +100,7 @@
           </ul>
           <div class="nav__botao-entrar">
             <button class="nav__botao-entrar___botao">Entrar</button>
-          </div>        
+          </div> 
         </nav>
       </header>
       <section class="principal">
@@ -119,95 +123,96 @@
                 </a>
               </div>
             </div>
+          </div>
+        </div>
+        <div class="principal__imagem">
+          <img class="principal__imagem-imagem" src="./img/capa-mulher.png" alt="mulher segurando moeda de um real">
+        </div>     
+      </section>
+    </div>
+    <section class="secundario__container">
+      <div class="container__container secundario">
+        <div class="secundario__secundario">
+          <h2 class="secundario__titulo">Saiba para onde vai o seu dinheiro</h2>
+          <p class="secundario__paragrafo">Com o Finans, você categoriza todos os seus lançamentos. Com gráficos simples, você sabe de onde vem e para onde vai o seu dinheiro.</p>
+          <button class="secundario__botao">Veja mais</button>
+        </div>
+        <div class="secundario__imagem">
+          <img src="./img/saiba.png" alt="imagem sobre saiba" class="secundario__imagem-imagem">
         </div>
       </div>
-      <div class="principal__imagem">
-        <img class="principal__imagem-imagem" src="./img/capa-mulher.png" alt="mulher segurando moeda de um real">
-      </div>     
     </section>
-  </div>
-  <section class="secundario__container">
-    <div class="container__container secundario">
-      <div class="secundario__secundario">
-        <h2 class="secundario__titulo">Saiba para onde vai o seu dinheiro</h2>
-        <p class="secundario__paragrafo">Com o Finans, você categoriza todos os seus lançamentos. Com gráficos simples, você sabe de onde vem e para onde vai o seu dinheiro.</p>
-        <button class="secundario__botao">Veja mais</button>
+    <section class="juros">
+      <div class="container__container juros__container">
+        <div class="juros__juros">
+          <h2 class="juros__titulo">Pare de pagar juros e economize</h2>
+          <p class="juros__paragrafo">Manter as contas em dia é sempre um problema? O Finans avisa você: receba alertas de contas a pagar e a receber!</p>
+          <button class="juros__botao">Veja mais</button>
+        </div>
+        <div class="juros__imagem">
+          <img src="./img/juros.png" alt="imagem sobre saiba" class="juros__imagem-imagem">
+        </div>
       </div>
-      <div class="secundario__imagem">
-        <img src="./img/saiba.png" alt="imagem sobre saiba" class="secundario__imagem-imagem">
+    </section>
+    <section class="beneficio">
+      <div class="container__container beneficios">
+        <div class="facil">
+          <img src="./img/facil.png" alt="imagem que estimula facilidade de uso da aplicação" class="facil__imagem">
+          <h3 class="facil__titulo">Fácil de usar</h3>
+          <p class="facil__paragrafo">O Finans vai além do básico e permite que você faça controles incríveis, essenciais para suas finanças. Simples como tem que ser!</p>
+        </div>
+        <div class="tempo">
+          <img src="./img/economize.png" alt="imagem relogio simbolizando economia de tempo" class="tempo__imagem">
+          <h3 class="tempo__titulo">Economize seu tempo</h3>
+          <p class="tempo__paragrafo">Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite seu tempo com o que realmente importa pra você!</p>
+        </div>
+        <div class="amigo">
+          <img src="./img/suporte.png" alt="imagem celular recebendo suporte" class="amigo__imagem">
+          <h3 class="amigo__titulo">Suporte amigo</h3>
+          <p class="amigo__paragrafo">Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente tá aqui pra resolver seus problemas e deixar sua vida bem mais fácil!</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="rodape">
+    <div class=" container__container rodape__navegacao">
+      <nav>
+        <ul class="rodape__nav">
+          <li class="rodape__nav-item">
+            <a href="" class="rodape__nav-link">Home</a>
+          </li>
+          <li class="rodape__nav-item">
+            <a href="" class="rodape__nav-link">Recursos</a>
+          </li>
+          <li class="rodape__nav-item">
+            <a href="" class="rodape__nav-link">Benefícios</a>
+          </li>
+          <li class="rodape__nav-item">
+            <a href="" class="rodape__nav-link">Preços</a>
+          </li>
+        </ul>      
+      </nav>
+      <div class="rodape__redes">
+        <a href="" class="btn btn-outline-dark">
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a href="" class="btn btn-outline-dark ml-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="btn btn-outline-dark ml-2">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="btn btn-outline-dark ml-2">
+          <i class="fab fa-youtube"></i>
+        </a>
       </div>
     </div>
-  </section>
-  <section class="juros">
-    <div class="container__container juros__container">
-      <div class="juros__juros">
-        <h2 class="juros__titulo">Pare de pagar juros e economize</h2>
-        <p class="juros__paragrafo">Manter as contas em dia é sempre um problema? O Finans avisa você: receba alertas de contas a pagar e a receber!</p>
-        <button class="juros__botao">Veja mais</button>
-      </div>
-      <div class="juros__imagem">
-        <img src="./img/juros.png" alt="imagem sobre saiba" class="juros__imagem-imagem">
-      </div>
-    </div>
-  </section>
-  <section class="beneficio">
-    <div class="container__container beneficios">
-      <div class="facil">
-        <img src="./img/facil.png" alt="imagem que estimula facilidade de uso da aplicação" class="facil__imagem">
-        <h3 class="facil__titulo">Fácil de usar</h3>
-        <p class="facil__paragrafo">O Finans vai além do básico e permite que você faça controles incríveis, essenciais para suas finanças. Simples como tem que ser!</p>
-      </div>
-      <div class="tempo">
-        <img src="./img/economize.png" alt="imagem relogio simbolizando economia de tempo" class="tempo__imagem">
-        <h3 class="tempo__titulo">Economize seu tempo</h3>
-        <p class="tempo__paragrafo">Tempo é dinheiro! Em segundos, você tem tudo sob controle e aproveite seu tempo com o que realmente importa pra você!</p>
-      </div>
-      <div class="amigo">
-        <img src="./img/suporte.png" alt="imagem celular recebendo suporte" class="amigo__imagem">
-        <h3 class="amigo__titulo">Suporte amigo</h3>
-        <p class="amigo__paragrafo">Dúvidas? Perguntas? Nosso suporte super legal ajuda você! A gente tá aqui pra resolver seus problemas e deixar sua vida bem mais fácil!</p>
-      </div>
-    </div>
-  </section>
-</main>
-<footer class="rodape">
-  <div class=" container__container rodape__navegacao">
-    <nav>
-      <ul class="rodape__nav">
-        <li class="rodape__nav-item">
-          <a href="" class="rodape__nav-link">Home</a>
-        </li>
-        <li class="rodape__nav-item">
-          <a href="" class="rodape__nav-link">Recursos</a>
-        </li>
-        <li class="rodape__nav-item">
-          <a href="" class="rodape__nav-link">Benefícios</a>
-        </li>
-        <li class="rodape__nav-item">
-          <a href="" class="rodape__nav-link">Preços</a>
-        </li>
-      </ul>      
-    </nav>
-    <div class="rodape__redes">
-      <a href="" class="btn btn-outline-dark">
-        <i class="fab fa-facebook"></i>
-      </a>
-      <a href="" class="btn btn-outline-dark ml-2">
-        <i class="fab fa-twitter"></i>
-      </a>
-      <a href="" class="btn btn-outline-dark ml-2">
-        <i class="fab fa-instagram"></i>
-      </a>
-      <a href="" class="btn btn-outline-dark ml-2">
-        <i class="fab fa-youtube"></i>
-      </a>
-    </div>
-  </div>
-</footer>
-
-<!-- JavaScript (Opcional) -->
-<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  </footer>
+  
+  <!-- JavaScript (Opcional) -->
+  <script src="./script/script.js"></script>
+  <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>

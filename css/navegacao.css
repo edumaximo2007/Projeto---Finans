@@ -1,5 +1,26 @@
 .navegacao{
-    display: flex;
-    flex-wrap: wrap;
     align-items: baseline;
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 600px) {
+   
+    .navegacao.active .nav {
+        display: block;
+        height: calc(60vh - 70px);
+        overflow-y: auto;
+        visibility: visible;
+    }
+
+    .navegacao.active #hamburger {
+        border-top-color: transparent;
+    }
+    .navegacao.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+    .navegacao.active #hamburger::after {
+        top: -7px;
+        transform: rotate(-135deg);
+    }
 }

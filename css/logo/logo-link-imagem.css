@@ -1,3 +1,10 @@
 .logo__link-imagem{
     width: 140px;
 }
+
+@media screen and (max-width: 849px){
+    .logo__link-imagem{
+        display: none;
+    }
+}
+   

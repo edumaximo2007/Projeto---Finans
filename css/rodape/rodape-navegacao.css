@@ -2,7 +2,14 @@
     align-items: baseline;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+@media screen and (max-width: 768px){
+    .rodape__navegacao{
+        align-items: center;
+        flex-direction: column;
+    }
+    
 }

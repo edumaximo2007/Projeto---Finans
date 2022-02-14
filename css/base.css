@@ -22,11 +22,44 @@
     --light: #f8f9fa;
     --dark: #343a40;
     --font-hind: 'Hind Madurai', sans-serif;
-
+    
 }
 
 body{
     /* font-family: var(--font-hind); */
     margin: 0;
     padding: 0;
+}
+.botao__navegacao {
+    display: none;
+}
+
+@media (max-width: 600px) {
+   
+  
+    .botao__navegacao {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        font-size: 1rem;
+        gap: 0.5rem;
+        padding: 0.5rem 1rem;
+    }
+    #hamburger {
+        border-top: 2px solid var(--branco);
+        width: 20px;
+    }
+    #hamburger::after,
+    #hamburger::before {
+        background: var(--branco);
+        content: '';
+        display: block;
+        height: 2px;
+        margin-top: 5px;
+        position: relative;
+        transition: 0.3s;
+        width: 20px;
+    }
+   
 }

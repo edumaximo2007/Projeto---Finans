@@ -1,3 +1,11 @@
 .principal__imagem-imagem{
     width: 100%;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .principal__imagem-imagem{
+        display: none;
+    }
+    
+}

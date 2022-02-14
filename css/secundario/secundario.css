@@ -1,7 +1,7 @@
 .secundario{
     align-items: center;
-    /* background-color: var(--branco); */
     display: flex;
     justify-content: space-between;
     padding-top: 60px;
 }
+

@@ -1,3 +1,10 @@
 .tempo{
     width: 30%;
 }
+
+@media screen and (max-width: 768px){
+    .tempo{
+        width: 100%;
+    }
+    
+}

@@ -1,7 +1,12 @@
 .principal__formulario-formulario___email{
     border-radius: 5px 0 0 5px;
+    border: none;
+    border-style: none;
     padding: 12px 18px;
     width: 26rem;
-    border-style: none;
-    border: none;
+}
+@media screen and (max-width: 320px) {
+    .principal__formulario-formulario___email{
+        width: 100%;
+    }
 }

@@ -5,3 +5,9 @@
    
 }
 
+@media (max-width: 600px) {
+   
+    .nav__item{
+        display: block;
+    }
+}

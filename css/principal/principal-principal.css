@@ -2,3 +2,11 @@
     color: var(--branco);
     width: 52%;
 }
+
+
+@media screen and (max-width: 1024px) {
+    .principal__principal{
+        width: 100%;
+    }
+    
+}

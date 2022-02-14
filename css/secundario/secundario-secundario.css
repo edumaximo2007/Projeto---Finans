@@ -1,3 +1,9 @@
 .secundario__secundario{
     width: 48%;
 }
+
+@media screen  and (max-width: 768px){
+    .secundario__secundario{
+        width: 80%;
+    }    
+}

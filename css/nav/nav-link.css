@@ -1,6 +1,6 @@
 .nav__link{
-    text-decoration: none;
     color: var(--cinzento);
+    text-decoration: none;
 }
 
 .nav__link:hover{

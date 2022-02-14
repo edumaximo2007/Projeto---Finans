@@ -1,5 +1,41 @@
 .nav{
     display: flex;
-    flex-wrap: wrap;
     margin-top: 5px;
 }
+
+.nav .nav__link {
+    display: block;
+    padding: 0.5rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .nav{
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 600px) {
+    .nav {
+        background: var(--branco);
+        display: block;
+        height: 0px;
+        overflow-y: hidden;
+        right: 0px;
+        transition: 0.6s;
+        position: absolute;
+        top: 70px;
+        width: 100%;
+        visibility: hidden;
+        z-index: 1000;
+    }
+
+    .nav .nav__link {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        margin: 0 1rem;
+        padding: 1rem 0;
+    }
+}
+
+
+
